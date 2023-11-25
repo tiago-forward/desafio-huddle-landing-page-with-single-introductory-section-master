@@ -7,10 +7,6 @@ body{
     background-size: auto 930px;
 }
 
-main{
-    height: 100%;
-}
-
 main .logo-huddle img{
     padding: 70px 100px 80px 80px;
 }
@@ -44,7 +40,7 @@ main .content-container .description-container .title{
     font-weight: 600;
     font-size: 45px;
     margin-bottom: 35px;
-    color: white;
+    color: #ffffff;
 }
 
 main .content-container .description-container .description{
@@ -52,14 +48,14 @@ main .content-container .description-container .description{
     font-weight: 400;
     font-size: 22px;
     margin-bottom: 35px;
-    color: white;
+    color: #ffffff;
 }
 
 main .content-container .description-container .btn-register{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    background-color: white;
+    background-color: #ffffff;
     color: #674BAF;
     text-align: center;
     max-width: 210px;
@@ -70,20 +66,20 @@ main .content-container .description-container .btn-register{
 
 main .content-container .description-container a:hover{
     background-color: var(--btn-color);
-    color: white;
+    color: #ffffff;
 }
 
-.social-media{
+footer .social-media{
     display: flex;
     justify-content: end;
-    color: white;
+    color: #ffffff;
     padding: 20px 70px;
     gap: 15px;
 }
 
-.social-media .fa-brands{
-    border: solid 1px white;
-    color: white;
+footer .social-media .fa-brands{
+    border: solid 1px #ffffff;
+    color: #ffffff;
     border-radius: 50px;
     padding: 10px;
     display: flex;
@@ -91,7 +87,7 @@ main .content-container .description-container a:hover{
     width: 37px;
 }
 
-.social-media .fa-brands:hover{
+footer .social-media .fa-brands:hover{
     cursor: pointer;
     color: var(--btn-color);
     border-color: var(--btn-color);
