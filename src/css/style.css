@@ -11,11 +11,8 @@ main{
     height: 100%;
 }
 
-main .logo-huddle{
-    font-family: 'Poppins', sans-serif;
-    font-size: 23px;
-    color: white;
-    padding: 70px 100px 80px 100px
+main .logo-huddle img{
+    padding: 70px 100px 80px 80px;
 }
 
 main .content-container{
@@ -24,7 +21,7 @@ main .content-container{
 }
 
 main .content-container .illustration-mockups{
-    padding: 0px 20px;
+    padding: 0px 10px;
     margin-left: 70px;
     width: 900px;
 }
@@ -39,6 +36,7 @@ main .content-container .description-container{
     max-width: 640px;
     margin-left: 70px;
     margin-top: 60px;
+    width: 100%;
 }
 
 main .content-container .description-container .title{
