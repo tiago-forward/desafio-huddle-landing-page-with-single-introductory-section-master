@@ -8,6 +8,8 @@
 @media (max-width: 768px){
     body {
         background-image: url(../images/bg-mobile.svg);
+        background-size: 100%;
+        background-position: top;
     }
 
     body main .logo-huddle img{
@@ -72,5 +74,11 @@
 @media (max-width: 375px){
     body main .content-container .illustration-mockups img{
         width: 90%;
+    }
+
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-size: 100%;
+        background-position: top;
     }
 }
